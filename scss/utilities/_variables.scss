@@ -8,7 +8,8 @@ $light-grey: #ccc;
 $theme-one: #927bc1;
 
 // ------ BREAKPOINTS ------
-
-$break-s: 767px;
-$break-m: 768px;
-$break-l: 1024px;
+$break {
+    'sm': 767px;
+    'med': 768px;
+    'lg': 1024px;
+}

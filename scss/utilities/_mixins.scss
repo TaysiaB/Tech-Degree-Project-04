@@ -1,5 +1,13 @@
 
-@mixin mq {
-    @media (min-width: $break-m)
-
-}
+@mixin mq($break) {
+    @if $break == ‘med’ {
+        @media (min-width: ) {
+        @content: '';
+        }
+    }
+    @else if $break == ‘lg’ {
+        @media (min-width: $break-sm) {
+        @content: ‘ ‘;
+            }
+        }
+    
